@@ -53,8 +53,6 @@ jobs:
     docker:
       - image: "cimg/base:stable"
       # more setup needed for aws, node, elastic beanstalk
-    context:
-      - fullstack-p4-context
     steps:
       - node/install:
           node-version: '14.15' 
@@ -81,5 +79,7 @@ workflows:
           requires:
             - build
       - deploy:
+          context:
+            - fullstack-p4-context
           requires:
             - hold
