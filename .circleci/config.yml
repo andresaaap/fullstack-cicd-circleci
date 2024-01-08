@@ -64,7 +64,6 @@ jobs:
           command: |
             echo "# TODO: Install, build, deploy in both apps"
             npm run deploy
-            eb init hostfull --region us-east-1 --platform "Node.js 14"
             
 workflows:
   udagram:
