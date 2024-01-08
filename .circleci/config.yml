@@ -80,3 +80,5 @@ workflows:
       - deploy:
           context:
             - fullstack-p4-context
+          requires:
+            - build
