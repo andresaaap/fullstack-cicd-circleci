@@ -1,0 +1,1 @@
+eb setenv POSTGRESS_USERNAME=postgres POSTGRESS_PASSWORD=paraandres POSTGRESS_DB=postgres POSTGRESS_HOST=postgres.c6q3jxx3fzss.us-east-1.rds.amazonaws.com AWS_REGION=us-east-1 AWS_PROFILE=default AWS_BUCKET=andihostingfullstack JWT_SECRET=mysecretstring URL=http://localhost:8100
